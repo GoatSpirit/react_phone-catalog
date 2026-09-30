@@ -2,6 +2,9 @@
 
 Nice Gadgets is a responsive e-commerce product catalog for phones, tablets, and accessories. The app lets users browse products, open detailed product pages, search and sort catalog items, add products to favorites, manage a shopping cart, and keep cart/favorites state between page reloads.
 
+## Demo
+
+[DEMO LINK](https://GoatSpirit.github.io/react_phone-catalog/)
 
 ## Design Reference
 
@@ -61,20 +64,39 @@ The app will be available in the browser at the local URL printed in the termina
 npm run build
 ```
 
+### 5. Deploy
+
+```bash
+npm run deploy
 ```
 
 ## Features
 
-- Responsive layout for desktop, tablet, and mobile screens
-- Sticky header with navigation, search, favorites, and cart indicators
-- Home page with an auto-changing image slider, category links, brand new products, and hot price products
-- Product catalog pages for phones, tablets, and accessories
-- URL-based sorting, search, pagination, and items-per-page selection
-- Product details page with breadcrumbs, image gallery, color and capacity selectors, tech specs, and product suggestions
-- Shopping cart with quantity controls, item removal, total price calculation, and checkout confirmation
-- Favorites page with persistent favorite products
-- LocalStorage persistence for cart and favorites
-- Loading, error, empty, not-found, and product-not-found states
-- GitHub Pages fallback for refreshing nested product routes
+### Catalog
 
+- Product pages for phones, tablets, and accessories.
+- URL-based search, sorting, pagination, and items-per-page selection.
+- Loading, error, empty, not-found, and product-not-found states.
 
+### Product Details
+
+- Product image gallery with selectable pictures.
+- Color and capacity selectors for available product variants.
+- Breadcrumbs, tech specs, product description, and suggested products.
+
+### Cart and Favorites
+
+- Shopping cart with quantity controls, item removal, and total price calculation.
+- Favorites page with saved favorite products.
+- Cart and favorites data are persisted in LocalStorage.
+
+### UI and Navigation
+
+- Responsive layout for desktop, tablet, and mobile screens.
+- Sticky header with navigation, search, favorites, and cart indicators.
+- Home page with an auto-changing image slider, category links, brand new products, and hot price products.
+- GitHub Pages fallback for refreshing nested product routes.
+
+## Repository
+
+[GitHub Repository](https://github.com/GoatSpirit/react_phone-catalog)
