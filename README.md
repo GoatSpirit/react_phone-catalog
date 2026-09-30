@@ -2,6 +2,10 @@
 
 Nice Gadgets is a responsive e-commerce product catalog for phones, tablets, and accessories. The app lets users browse products, open detailed product pages, search and sort catalog items, add products to favorites, manage a shopping cart, and keep cart/favorites state between page reloads.
 
+#DEMO LINK
+
+https://goatspirit.github.io/phone_catalog/
+
 
 ## Design Reference
 
@@ -11,7 +15,6 @@ The project is based on the dark version of the Phone Catalog design:
 
 ## Technologies Used
 
-### Core
 
 - React - UI library
 - TypeScript - type safety
